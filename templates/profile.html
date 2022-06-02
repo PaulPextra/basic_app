@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}Profile{% endblock title %}
+
+{% block content %}
+    <br/>
+    <div class="jumbotron">
+        {% if user.is_authenticated %}
+        <h1 class="display-4">Profile</h1>
+        <hr>
+        <p class="lead">Username: {{ user.username }}</p>
+        <p class="lead">First Name: {{ user.first_name }}</p>
+        <p class="lead">Last Name: {{ user.last_name }}</p>
+        <p class="lead">Email: {{ user.email }}</p>
+        <p class="lead">Phone: {{ user.phone }}</p>
+        <p class="lead">City: {{ user.city }}</p>
+        <p class="lead">State: {{ user.state }}</p>
+        <p class="lead">Country: {{ user.country }}</p>
+        {% endif %}
+        <hr>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="{% url 'profile_edit' %}"
+            role="button">Edit Profile</a>
+        </p>
+    </div>
+{% endblock content %}
