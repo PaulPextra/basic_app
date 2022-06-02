@@ -9,6 +9,7 @@ gunicorn = "*"
 environs = "*"
 whitenoise = "*"
 environ = "*"
+django-environ = "*"
 
 [dev-packages]
 
