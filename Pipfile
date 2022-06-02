@@ -12,6 +12,7 @@ environ = "*"
 django-environ = "*"
 django-crispy-forms = "*"
 django-allauth = "*"
+psycopg2 = "*"
 
 [dev-packages]
 
