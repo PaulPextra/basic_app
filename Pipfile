@@ -13,6 +13,7 @@ django-environ = "*"
 django-crispy-forms = "*"
 django-allauth = "*"
 psycopg2 = "*"
+dj-database-url = "*"
 
 [dev-packages]
 
