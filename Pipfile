@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 django = "==3.2.9"
+gunicorn = "*"
+environs = "*"
+whitenoise = "*"
 
 [dev-packages]
 
