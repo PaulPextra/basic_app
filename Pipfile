@@ -8,6 +8,7 @@ django = "==3.2.9"
 gunicorn = "*"
 environs = "*"
 whitenoise = "*"
+environ = "*"
 
 [dev-packages]
 
