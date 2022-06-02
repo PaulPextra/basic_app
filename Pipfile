@@ -10,6 +10,7 @@ environs = "*"
 whitenoise = "*"
 environ = "*"
 django-environ = "*"
+django-crispy-forms = "*"
 
 [dev-packages]
 
